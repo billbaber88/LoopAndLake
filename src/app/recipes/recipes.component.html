@@ -1,0 +1,62 @@
+<div class="wrapper">
+<div class="navbar">
+  <a [routerLink]="['']">
+    <img class="nav-img" src="..\assets\img\Loop.PNG">
+  </a>
+  <a [routerLink]="['/about']"> About </a>
+  <a [routerLink]="['/recipes']">Recipes </a>
+  <a [routerLink]="['/requestquote']"> Request a Quote </a>
+</div>
+
+
+  <div class="content">
+    <br>
+    <h3>Click an image to reveal the recipe</h3>
+    <div class="half ib" (click)="reveal('BourbonAndSparklingCider')">
+      <h2>Bourbon and Sparkling Cider </h2>
+      <img src="..\assets\img\BourbonAndSparklingCider.PNG">
+      <div id="BourbonAndSparklingCider" [ngStyle]="{'display': 'none'}">
+        <p>
+          Step 1: Bourbon
+          <br> Step 2: Sparkling Cider
+          <br> Step 3: Shake it!
+          <br> Step 4: Serve
+        </p>
+      </div>
+    </div>
+
+    <div class="half ib" (click)="reveal('CoffeeAmaro')">
+      <h2>Coffee Amaro</h2>
+      <img src="..\assets\img\CoffeeAmaro.PNG">
+      <div id="CoffeeAmaro" [ngStyle]="{'display': 'none'}">
+        <p>
+          Step 1: Coffee
+          <br> Step 2: Amaro
+          <br> Step 3: Stir it!
+          <br> Step 4: Serve
+        </p>
+      </div>
+    </div>
+
+    <div class="half ib" (click)="reveal('CopperToolset')">
+      <h2>Copper Toolset</h2>
+      <img src="..\assets\img\CopperToolset.PNG">
+      <div id="CopperToolset" [ngStyle]="{'display': 'none'}">
+        <p>
+          Step 1: Yo, we're way past the bronze age. Just buy it.
+        </p>
+      </div>
+    </div>
+
+    <div class="half ib" (click)="reveal('TableSettings')">
+      <h2>Table Setting</h2>
+      <img src="..\assets\img\TableSettings.PNG">
+      <div id="TableSettings" [ngStyle]="{'display': 'none'}">
+        <p>
+          Step 1: Pay me, and I'll do it for you!
+        </p>
+      </div>
+    </div>
+
+  </div>
+</div>

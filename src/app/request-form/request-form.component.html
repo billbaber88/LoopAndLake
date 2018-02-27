@@ -1,0 +1,29 @@
+<div class="wrapper">
+
+  <div class="navbar">
+    <a [routerLink]="['']">
+      <img class="nav-img" src="..\assets\img\Loop.PNG">
+    </a>
+    <a [routerLink]="['/about']"> About </a>
+    <a [routerLink]="['/recipes']">Recipes </a>
+    <a [routerLink]="['/requestquote']"> Request a Quote </a>
+  </div>
+
+  <div class="container">
+    <form id="contact" method="POST" action="https://formspree.io/bill.baber88@gmail.com">
+      <h3>Request a Quote</h3>
+      <h4>Contact us today, and get reply within two business days</h4>
+      <input placeholder="Your name" type="text" tabindex="1" name="Name" required autofocus>
+      <input placeholder="Your Email Address" type="email" tabindex="2" name="Email" required>
+      <input placeholder="Your Phone Number" type="tel" tabindex="3" name="Phone Number" required>
+      <input placeholder="Type of Event" type="text" tabindex="4" name="Type" required>
+      <input placeholder="Expected number of guests" type="tel" tabindex="5" name="Number of guests" required>
+      <input placeholder="Date of Event" type="text" tabindex="6" name="Date" required>
+      <textarea placeholder="Additional details here...." tabindex="7" name="Message" required></textarea>
+      <button type="submit" id="contact-submit" tabindex="8">Submit Request</button>
+      <input type="hidden" name="_next" value="/" />
+    </form>
+  </div>
+
+
+</div>

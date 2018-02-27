@@ -1,0 +1,41 @@
+.wrapper{
+    background-image: url("..\..\assets\img\dust_scratches.png");
+    margin: 0;
+    height: 100%;
+}
+
+
+.content{
+    max-width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+#intro{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(34, 55, 175, 0.911);
+}
+
+.navbar{
+    display: inline-block;
+    background-color: darkblue;
+    width: 100%;
+    text-align: right;
+    color: white;
+}
+
+.navbar > a {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+.nav-img{
+    max-width: 100px;
+    vertical-align: middle;
+    margin: 10px 10px 10px 0px;
+}
+
+img{
+    
+}
