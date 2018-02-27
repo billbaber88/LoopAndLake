@@ -4,6 +4,10 @@
     height: 100%;
 }
 
+.ib{
+    display: inline-block;
+}
+
 
 .content{
     max-width: 80%;
@@ -36,6 +40,18 @@
     margin: 10px 10px 10px 0px;
 }
 
-img{
-    
+
+.footer{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.insta {
+    max-width: 40px;
+    vertical-align: middle;
 }
