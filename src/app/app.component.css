@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Scope+One');
+
+p, h1, h2, h3 {
+    font-family: 'Scope One', serif;
+    font-size: 24px;
+}
+
+.wrapper{
+    background-image: url("..\assets\img\food.png");
+    margin: 0;
+    height: 100%;
+}
+
+.ib{
+    display: inline-block;
+}
+
+.container{
+    max-width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+#intro{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(34, 55, 175, 0.911);
+}
+
+/* 34vw = 34% of view width. content was 80% wide, half is 45 with 2% margins. (80x0.45)-2 is how we get the height */
+.half{
+    width: 45%;
+    height: 34vw;
+    margin: 2%;
+    vertical-align: top;
+}
+
+
+.half > img {
+    max-width: 90%;
+}

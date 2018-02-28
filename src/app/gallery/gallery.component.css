@@ -1,0 +1,32 @@
+/* ========= HEIGHT IN PIXELS WILL CHANGE TO THE SIZE OF THE STANDARD IMAGE SIZE THE CLIENT DECIDES ON====== */
+
+#bAndS{
+    background-image: url("..\..\assets\img\BourbonAndSparklingCider.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* height: 613px; */
+}
+
+.hover{
+    vertical-align: middle;
+    background-color: rgba(70, 70, 70, 0.746);
+    font-size: 24px;
+    color: white;
+    height: 34vw;
+    margin: -20px 0px 20px 0px;
+}
+
+#coffeeAmaro {
+    background-image: url("..\..\assets\img\CoffeeAmaro.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* height: 613px; */
+}
+
+.centerVertically{
+    vertical-align: middle;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+

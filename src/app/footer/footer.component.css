@@ -1,0 +1,15 @@
+/* =====FOOTER==== */
+.footer{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.insta {
+    max-width: 40px;
+    vertical-align: middle;
+}
